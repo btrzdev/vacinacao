@@ -15,7 +15,7 @@ class Patient(db.Model):
     health_unit_name: str
 
     
-    __tablename__: "vaccine_cards"
+    __tablename__= "vaccine_cards"
     cpf = Column(String, primary_key=True)
     name = Column(String, nullable=False)
     first_shot_date = Column(DateTime)
